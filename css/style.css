@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@media screen and (max-width: 800px) {
+  .body,
+  .container,
+  .navbar,
+  .nav,
+  .mainContainer,
+  .main,
+  .devinfo,
+  .devpic,
+  .dev,
+  .buttons {
+    width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+}
+.navbar {
+  background-color: #040720;
+  color: rgb(105, 212, 245);
+  width: 20vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* font-weight: bold; */
+  font-size: 20px;
+  margin: 1px;
+  margin-right: 1060px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  /* cursor: pointer; */
+  border-radius: 2%;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar nav {
+  padding: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(55, 0, 255, 0.281);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(2, 2, 43);
+}
+
+.navbar nav li {
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(2, 2, 43);
+}
+.navbar nav li:hover {
+  background-color: rgba(0, 17, 255, 0.192);
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.navbar nav li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.main {
+  background-color: #000322;
+  color: antiquewhite;
+  width: 80vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  margin-left: 280px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(13, 1, 82);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1px;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  background-color: #270455;
+}
+
+.mainContainer {
+  background-color: #1f2347;
+  height: 44vh;
+  width: 70;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 1px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  background-color: #000322;
+  color: antiquewhite;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.devinfo:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  transition: 0.5s;
+  color: rgb(129, 129, 250);
+  background-color: #000322;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+}
+
+.devpic img {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  border: 2px solid rgb(129, 129, 250);
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.devpic img:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  transform: translateY(-5px);
+  transition: 0.5s;
+  color: rgb(129, 129, 250);
+  background-color: #000322;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid rgb(129, 129, 250);
+  border-radius: 50%;
+}
+
+.buttons {
+  margin-top: 34px;
+}
+
+.buttons button {
+  padding: 9px 14px;
+  border: 1px solid #000322;
+  border-radius: 20px;
+  color: azure;
+  box-shadow: 0px 0px 10px rgba(55, 0, 255, 0.329);
+  background-color: #0d1030;
+}
+
+.buttons button:hover {
+  background-color: rgb(76, 0, 255);
+  color: #040720;
+  cursor: pointer;
+  transition: 0.5s;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(55, 0, 255);
+  transition: 0.5s;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}

@@ -1,0 +1,48 @@
+body {
+  max-width: 10000px;
+  min-width: 400px;
+}
+
+@media screen and (max-width: 1365px) {
+  .body,
+  .container,
+  .navbar,
+  .nav,
+  .mainContainer,
+  .main,
+  .devinfo,
+  .devpic,
+  .dev,
+  .buttons {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1265px) {
+  .body,
+  .container,
+  .navbar,
+  .nav,
+  .mainContainer,
+  .main,
+  .devinfo,
+  .devpic,
+  .dev,
+  .buttons {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 100px) {
+  .body,
+  .container,
+  .navbar,
+  .nav,
+  .mainContainer,
+  .main,
+  .devinfo,
+  .devpic,
+  .dev,
+  .buttons {
+    width: 100%;
+  }
+}
